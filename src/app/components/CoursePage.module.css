@@ -1,0 +1,225 @@
+.courseContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 10vh;
+  border: #00060d;
+  width: 1000px;
+  padding-left: 10%;
+  background-color: #fcfcfc;
+}
+
+.para {
+  font-size: 16px; 
+  line-height: 1.6; 
+  color: #333; 
+  margin-bottom: 10px; 
+}
+
+.instructorCourseSection {
+  position: relative;
+  width: -10%;
+}
+
+.instructorImage {
+  width: 650px;
+  height: 375px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin: 20px auto;
+  padding: 50px;
+  margin-right: 200px;
+}
+
+.instructorSection {
+  position: absolute;
+  top: 70%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.instructorname {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.coursetitle {
+  font-size: 28px;
+  text-align: left;
+}
+
+.feeBoxContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -40%;
+  margin-left: 750px;
+  background-color: rgb(200, 201, 201);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 25%;
+}
+
+.coursefees,
+.amountbox {
+  text-align: center;
+}
+
+.registerButton {
+  background-color: #007bff;
+  color: #fff;
+  padding: 15px 40px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.aboutcoursesection {
+  margin-top: -30px;
+  padding: 20px;
+}
+
+.aboutcoursesection h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.aboutcoursesection p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.aboutSectionsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.aboutcoursesection h2,
+.what_to_expect h2,
+.about-course-section h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.aboutcoursesection,
+.what_to_expect,
+.about-course-section {
+  width: 48%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.aboutcoursesection p,
+.what_to_expect p,
+.about-course-section p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+}
+
+.about-course-section {
+  padding-top: 20px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.aboutinstructorsection {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.aboutinstructorsection h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.aboutinstructorsection p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+}
+
+.styles-instructor-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.styles-instructor-section h2 {
+  font-size: 24px;
+  margin-right: 5px;
+}
+
+.styles-instructor-section {
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+.styles-social-media-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.styles-social-media-list li {
+  margin-right: 30%;
+}
+
+.styles-social-media-list a {
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.styles-social-media-list i {
+  margin-right: 5px;
+  font-size: 18px;
+} 
+
+.testimonialSection {
+  background-color: #f8f8f8; 
+  padding: 40px;
+  text-align: center;
+  margin-top: 40px; 
+}
+
+.testimonialSection h2 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.scrollIcon {
+  font-size: 24px;
+  color: #007bff; 
+  cursor: pointer;
+  margin-top: 20px;
+  transition: transform 0.3s ease;
+}
+
+.scrollIcon:hover {
+  transform: translateY(5px);
+}
